@@ -1,0 +1,16 @@
+
+button{
+  float:left;
+}
+#barra{
+  float: left;
+  height:50px;
+  width: 200px;
+  border:1px solid black;
+}
+.template{
+  margin-bottom:20px;
+}
+.locandine{
+  padding-top:100px;
+}

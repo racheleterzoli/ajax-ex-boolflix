@@ -10,25 +10,30 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
   <title></title>
 </head>
 <body>
 
-<div class="box">
+  <div class="box">
+    <input type="text" id="barra" class=" form-control">
+    <button  type="button" name="button" >ricerca</button>
 
-</div>
-<div class="">
 
-</div>
-<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-<script id="entry-template" type="text/x-handlebars-template">
-  <div class="entry">
-    <h1>{{title}}</h1>
-    <div class="stampa">
-      {{body}}
-    </div>
   </div>
-</script>
+<div class="locandine">
+
+</div>
+  <script id="entry-template" type="text/x-handlebars-template">
+    <div class="template">
+      <span >TITOLO :{{title}}</span><br>
+      <span >TITOLO ORIGINALE:{{original_title}}</span><br>
+      <span >LINGUA:{{original_language}}</span><br>
+      <span >VOTAZIONE:{{vote_average}}</span>
+
+    </div>
+  </script>
 
 
 
@@ -37,7 +42,7 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
