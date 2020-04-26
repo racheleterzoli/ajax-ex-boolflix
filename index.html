@@ -26,11 +26,12 @@
 
 </div>
   <script id="entry-template" type="text/x-handlebars-template">
-    <div class="template">
-      <span >TITOLO :{{title}}</span><br>
-      <span >TITOLO ORIGINALE:{{original_title}}</span><br>
-      <span >LINGUA:{{original_language}}</span><br>
-      <span >VOTAZIONE:{{vote_average}}</span>
+    <div class="template" style="background-image:url('{{immagine}}')">
+      <span class="prova">TITOLO :{{title}}</span><br>
+      <span class="prova">TITOLO ORIGINALE:{{original_title}}</span><br>
+      <span class="prova">LINGUA:{{{ original_language }}}</span><br>
+      <span class="prova">VOTAZIONE:{{{vote_average}}}</span> <br>
+      <span class="prova">OVERVIEW:{{overview}}</span>
 
     </div>
   </script>
